@@ -1,7 +1,7 @@
 # React + Vite
-![Captura desde 2024-06-12 18-45-28](https://github.com/naopeke/react-chatapp2/assets/143800388/cf896b9d-de50-469b-a790-26f06141bd51)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Captura desde 2024-06-12 18-47-54](https://github.com/naopeke/react-chatapp2/assets/143800388/8bd3c2ef-cf55-4007-b9cc-22bcd6e0786f)
 
 Currently, two official plugins are available:
 
