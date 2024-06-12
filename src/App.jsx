@@ -4,11 +4,12 @@ import ChatRoom from './pages/ChatRoom'
 import Login from './pages/Login'
 import { Route, Routes } from 'react-router-dom';
 import PrivateRoute from './routes/PrivateRoute';
+import { AuthProvider } from './context/AuthContext';
 
 function App() {
 
   return (
-    <>
+    <AuthProvider>
       <Navbar />
       <Routes>
         <Route path="/" element={<Login/>} />
@@ -20,7 +21,7 @@ function App() {
             </PrivateRoute>
           } />  
       </Routes>
-    </>
+    </AuthProvider>
   )
 }
 
